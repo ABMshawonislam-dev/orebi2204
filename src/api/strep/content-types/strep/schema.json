@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "streps",
+  "info": {
+    "singularName": "strep",
+    "pluralName": "streps",
+    "displayName": "Strep",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

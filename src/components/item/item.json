@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_item_items",
+  "info": {
+    "displayName": "Item"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "list": {
+      "type": "component",
+      "repeatable": true,
+      "component": "item.list"
+    }
+  }
+}
